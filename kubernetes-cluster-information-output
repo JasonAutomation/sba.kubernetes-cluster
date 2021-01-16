@@ -1,0 +1,12 @@
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   13h
+NAME              STATUS   ROLES                  AGE     VERSION
+jay-virtualbox3   Ready    control-plane,master   3d20h   v1.20.0
+NAME          READY   STATUS    RESTARTS   AGE
+flask-l6j4h   1/1     Running   0          13h
+flask-sw7k7   1/1     Running   0          13h
+flask-v8ngk   1/1     Running   0          13h
+[0;32mKubernetes control plane[0m is running at [0;33mhttps://10.0.2.15:8443[0m
+[0;32mKubeDNS[0m is running at [0;33mhttps://10.0.2.15:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy[0m
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
